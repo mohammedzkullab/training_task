@@ -46,7 +46,7 @@ export default function HomeWrapper() {
                 height={200}
                 className="w-full max-h-[300px]"
                 src={data && data?.images_list[0]}
-                alt="photo"
+                alt="background image"
               />
             </div>
           </header>
@@ -61,7 +61,7 @@ export default function HomeWrapper() {
                     height={400}
                     className="w-40 h-40 rounded-full"
                     src={data && data?.photo}
-                    alt="image"
+                    alt="profile image"
                   />
                   <h2 className="text-lg font-bold">{data?.name}</h2>
                   <p className="font-medium text-gray-600">hacker</p>
